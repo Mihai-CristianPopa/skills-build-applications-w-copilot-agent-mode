@@ -1,0 +1,112 @@
+
+/* OctoFit App Custom Styles */
+
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  min-height: 100vh;
+}
+
+.app-logo {
+  height: 60px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link.active {
+  color: #ffbe0b !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #8338ec;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ff006e;
+  text-decoration: underline;
+}
+
+.table {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.07);
+  overflow: hidden;
+}
+
+.table thead {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+.btn-primary, .btn-success, .btn-danger, .btn-info {
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.07);
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #ffbe0b;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #ff006e 0%, #ffbe0b 100%);
+  color: #fff;
+}
+
+.btn-info {
+  background: linear-gradient(90deg, #00b4d8 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(58, 134, 255, 0.09);
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a86ff;
+  border-radius: 8px;
+}
